@@ -1,4 +1,6 @@
-function mouse(){
+function mouse(name){
 
-    console.log('t la chuot ne hihi');
+    
+    this.name= name;
 }
+module.exports =  mouse;
